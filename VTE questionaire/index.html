@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css" >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course rep perfomance</title>
+</head>
+<body>
+    <div class="body">
+        <div class="top">
+            <div class="left">
+                &imagline;
+            </div>
+            <div class="center">
+                VTE
+            </div>
+            <div class="right">&nbsp;</div>
+        </div>
+        <div class="form">
+            <form action="https://formspree.io/f/mwkgwdgo" id="my-form" method="post">
+                <div class="first">
+                    This webpage is so that we can determaine the performance of your course rep 
+                </div>
+                <div class="inputs">
+                    <div class="input">
+                        <label for="name">Name :</label>
+                        <input type="text" name="name"  id="formname"/>
+                    </div>
+                    <div class="input">
+                        <label for="level">Current level</label>
+                        <select name="level" id="" required>
+                            <option value="">What&nbsp;Level</option>
+                            <option value="1">100&nbsp;Level</option>
+                            <option value="2">200&nbsp;Level</option>
+                            <option value="3">300&nbsp;Level</option>
+                            <option value="4">400&nbsp;Level</option>
+                        </select>
+                    </div>
+                    <div class="input">
+                        <label for="courserepname">Name&nbsp;of&nbsp;Course&nbsp;rep;</label>
+                        <input type="text" name="courserepname" required/>
+                    </div>
+                    <div class="input">
+                        <label for="">Rate&nbsp;your&nbsp;Course&nbsp;rep</label>
+                        <div class="radios">
+                            <button name="stars" type="button" id="a">&star;</button>
+                            <button name="stars" type="button" id="b">&star;</button>
+                            <button name="stars" type="button" id="c">&star;</button>
+                            <button name="stars" type="button" id="d">&star;</button>
+                            <button name="stars" type="button" id="e">&star;</button>
+                        </div>
+                    </div>
+                    <div class="input">
+                        <label for="" style="text-align: left; width: 100%;">What is your course rep not <br>doing right:</label>
+                        <input type="text" name="Feedback" id="feedback" required/>
+                    </div>
+                    <div class="hidden">
+                        <input type="text" name="starsvalue" id="starval" required/>
+                    </div>
+                    <p id="my-form-status"></p>
+                    <div class="button">
+                        <button type="submit" id="my-form-button">
+                            Send&nbsp;Feedback
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="thankyou">
+        <div class="toppart">
+            <img src="" alt="">
+        </div>
+        <div class="bottompart">
+            <div class="first">Thank you</div>
+            <div id="second"></div>
+            <div class="third">For your submission</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

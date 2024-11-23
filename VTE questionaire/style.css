@@ -1,0 +1,146 @@
+*{
+    transition: all .2s ease-in-out;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: black;
+    color: white;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    text-shadow: 1px 1px 3px  greenyellow;
+}
+.top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    font-size: 30px;
+    font-family: impact;
+    margin-top: 40px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px  greenyellow;
+}
+.left{
+    max-width: 50px;
+}
+.center{
+    width: 70px;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    width: 90%;
+    background: radial-gradient(grey,transparent,gray);
+    min-height: 70vh;
+    height: max-content;
+    max-height: 100vh;
+    padding: 10px;
+    text-align: center;
+    border-radius: 40px;
+    border: .5px solid white;
+    margin-top: 30px;
+}
+.first{
+    font-family: arial;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 40px;
+    font-style: italic;
+}
+input{
+    width: 280px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: .5px solid white;
+    color: white;
+    font-family: arial;
+    font-weight: lighter;
+    font-style: normal;
+    text-align: center;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-top: 10px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+select{
+    width: 280px;
+    height: 40px;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+    outline: 3px solid transparent;
+    font-weight: bold;
+}
+option{
+    background: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+label{
+    font-family: 'Arial';
+    font-weight: bolder;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.radios{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.radios button{
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border: 0;
+    color: white;
+    font-size: 30px;
+    outline:  0;
+}
+.button{
+    margin-bottom: 40px;
+}
+.button button{
+    width: 150px;
+    height: 30px;
+    border-radius: 11px;
+    background: linear-gradient(blue,aqua);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid aqua;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.hidden{
+    display: none;
+}
+#my-form-status{
+    display: none;
+}
